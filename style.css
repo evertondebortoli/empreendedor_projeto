@@ -1,0 +1,125 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+:root{
+  --fonte1:  'Titillium Web', sans-serif;
+  --fonte2: 'Josefin Sans', sans-serif;
+}
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body
+{
+  min-height: 100vh;
+  background-color: white;
+  font-family: var(--fonte1);
+}
+
+header 
+{
+  background-color: black;
+  color: rgb(250, 33, 4);
+  text-align: center;
+  padding-top: 30px;
+  font-family: var(--fonte1);
+  font-size: 3em;
+  font-variant: small-caps;
+  background: linear-gradient(to top, #5300B3,  #5300B3, #7700FF);
+}
+/*
+nav > a
+{ 
+  padding-left: 20px;
+  color: rgb(250, 33, 4);
+  font-weight: bolder;
+  background: #5300B3;
+  text-align: center;
+}
+*/
+header > p 
+{
+  padding-bottom: 30px;
+}
+
+nav {
+  padding: 50px;
+  text-align: right;
+}
+
+section 
+{
+  padding-left: 30px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  line-height: 2em;
+  font-size: 7vh;
+  
+}
+
+section > p 
+{
+  font-family: var(--fonte2);
+  
+}
+.oi {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+section.imagem 
+{
+  background-attachment: fixed;
+}
+
+section.imagem > p 
+{
+  background-color: rgba(56, 54, 54, 0.192);
+  width: 300px;
+}
+
+
+section#img01 
+{
+  background-image: url(manu.jpg);
+  background-color: darkseagreen;
+  color:  white;
+ background-position: center right;
+ 
+}
+
+section#img02 {
+  background-image: url(dr.jpeg);
+  background-color: darkseagreen;
+  color: white;
+  background-position: center left;
+}
+
+
+footer {
+  font-family: var(--fonte1);
+  background-color: black;
+  color: orangered;
+  text-align: center;
+  padding: 5px;
+}
+
+a {
+  color: orangered;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content{display: flex;justify-content: center ;}
+.contato{width: 100%; max-width: 500px;}
+.form{display: flex;flex-direction: column;}
+.field{padding: 10px;margin-bottom: 15px;border: 1px solid #ddd;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-size: 16px;}
+textarea{height: 150px;}
