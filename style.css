@@ -25,14 +25,13 @@ html, body{
 }
 
 header{
-   color: #515151;
+  padding: 50px;
+  color: #515151;
   text-align: center;
   font-family: var(--fonte1);
   font-size: 2.5em;
   background: linear-gradient(to bottom, #0C59F2,  #0F71F2, #139DF2, #22CCF2);
 }
-
-
 
 h2{
   text-align: center;
@@ -40,7 +39,7 @@ h2{
 }
 
 nav {
-  padding: 50px;
+  padding: 10px;
   text-align: right;
   margin: 20px;
 }
@@ -52,17 +51,16 @@ section
   padding-bottom: 20vh;
   line-height: 2em;
   font-size: 7vh;
-  
+  text-align: center; 
 }
 
 section > p 
 {
-  font-family: var(--fonte2);
-  
+  font-family: var(--fonte2);  
 }
+
 .oi {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 section.imagem 
@@ -76,42 +74,72 @@ section.imagem > p
   width: 300px;
 }
 
-
 section#img01 
 {
-  background-image: url(img/manu.jpg);
+  background-image: url(img/homemanu1.png);
   background-color: darkseagreen;
   color:  white;
-  background-position: center right;
- 
+  
 }
 
 section#img02 {
-  background-image: url(img/dr.jpeg);
-  color: white;
-  background-position: center left;
+  background-image: url(img/dr1.jpeg);
+  color: white; 
 }
 
+.dep1{
+  width: 80px;
+  font-size: .5px;
+}
 
 footer {
   font-family: var(--fonte1);
   background: linear-gradient(to top, #0C59F2,  #0F71F2, #139DF2, #22CCF2);
-  color: #515151;
+  color: #525252;
   text-align: center;
   padding: 5px;
 }
 
+.rodape {
+  font-size: 2rem;
+}
+
 a {
-  color: #515151;
+  color: rgb(247, 239, 239);
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #525252;
+  transition: .3s;
 }
 
-.content{display: flex;justify-content: center ;}
-.contato{width: 100%; max-width: 500px;}
-.form{display: flex;flex-direction: column;}
-.field{padding: 10px;margin-bottom: 15px;border: 1px solid #ddd;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-size: 16px;}
-textarea{height: 150px;}
+.content{
+  display: 
+  flex;justify-content: 
+  center;}
+
+.contato{
+  width: 100%; 
+  max-width: 
+  400px;
+}
+
+.form{
+  display: 
+  flex;flex-direction: 
+  column;
+}
+
+.field{
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ddd;
+  border-radius: 5px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+textarea{
+  height: 100px;
+}
