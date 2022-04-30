@@ -14,42 +14,35 @@
   padding: 0px;
 }
 
-html, body
-{
+.whats{
+  width: 40px;
+} 
+
+html, body{
   min-height: 100vh;
   background-color: white;
   font-family: var(--fonte1);
 }
 
-header 
-{
-  background-color: black;
-  color: rgb(250, 33, 4);
+header{
+   color: #515151;
   text-align: center;
-  padding-top: 30px;
   font-family: var(--fonte1);
-  font-size: 3em;
-  font-variant: small-caps;
-  background: linear-gradient(to top, #5300B3,  #5300B3, #7700FF);
+  font-size: 2.5em;
+  background: linear-gradient(to bottom, #0C59F2,  #0F71F2, #139DF2, #22CCF2);
 }
-/*
-nav > a
-{ 
-  padding-left: 20px;
-  color: rgb(250, 33, 4);
-  font-weight: bolder;
-  background: #5300B3;
+
+
+
+h2{
   text-align: center;
-}
-*/
-header > p 
-{
-  padding-bottom: 30px;
+  color: green;
 }
 
 nav {
   padding: 50px;
   text-align: right;
+  margin: 20px;
 }
 
 section 
@@ -86,16 +79,15 @@ section.imagem > p
 
 section#img01 
 {
-  background-image: url(manu.jpg);
+  background-image: url(img/manu.jpg);
   background-color: darkseagreen;
   color:  white;
- background-position: center right;
+  background-position: center right;
  
 }
 
 section#img02 {
-  background-image: url(dr.jpeg);
-  background-color: darkseagreen;
+  background-image: url(img/dr.jpeg);
   color: white;
   background-position: center left;
 }
@@ -103,14 +95,14 @@ section#img02 {
 
 footer {
   font-family: var(--fonte1);
-  background-color: black;
-  color: orangered;
+  background: linear-gradient(to top, #0C59F2,  #0F71F2, #139DF2, #22CCF2);
+  color: #515151;
   text-align: center;
   padding: 5px;
 }
 
 a {
-  color: orangered;
+  color: #515151;
   text-decoration: none;
 }
 
